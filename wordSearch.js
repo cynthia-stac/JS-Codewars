@@ -9,4 +9,4 @@ function wordSearch(query, seq){
               )
               return arr.length>0 ? arr :["Empty"];
 }
-console.log(wordSearch("word",["full word","home"]))
+console.log(wordSearch("ho",["full word","home"]))
