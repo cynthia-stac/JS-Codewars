@@ -15,4 +15,3 @@ function getSum(a, b) {
 
   return sum;
 }
-console.log(getSum(3,5));
