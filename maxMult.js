@@ -7,4 +7,3 @@ function maxMultiple(divisor, bound){
   }
   return Math.max(...mySet);
 }
-console.log(maxMultiple(2,100));
