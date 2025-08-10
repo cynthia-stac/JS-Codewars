@@ -16,4 +16,4 @@ function quadrant(x, y) {
   }
 }
  
-console.log(quadrant(1, 2));
+
