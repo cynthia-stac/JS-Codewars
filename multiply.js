@@ -9,9 +9,6 @@ function multiply(a, b) {
     return null;
   }
 }
-console.log(multiply(3, 4));        
-console.log(multiply(5));           
-console.log(multiply([1, 2, 3]));    
-console.log(multiply("hello"));      
+   
 
 
