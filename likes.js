@@ -1,19 +1,9 @@
 function likes(names) {
   const count = names.length
-  switch (count){
-      case 0:
-      return `no one likes this`
+  
+      return (count === 0)? `no one likes this`: (count === 1)? `${names[0]} likes this` : (count === 2)?
       
-      case 1:
-      return `${names[0]} likes this`
-      
-      case 2:
-      return `${names[0]} and ${names[1]} like this`
-      
-      case 3:
-      return `${names[0]}, ${names[1]} and ${names[2]} like this`
-      
-      default:
-      return `${names[0]}, ${names[1]} and ${count - 2} others like this`
-  }
+    `${names[0]} and ${names[1]} like this`: (count === 3)? `${names[0]}, ${names[1]} and ${names[2]} like this`:
+   `${names[0]}, ${names[1]} and ${count - 2} others like this`
+  
 }
