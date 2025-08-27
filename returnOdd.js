@@ -1,4 +1,4 @@
-function findOdd(A) {
+function findOdd(A){
 const count = { }
 
 for (let num of A ){
