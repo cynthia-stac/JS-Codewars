@@ -1,21 +1,3 @@
-
-6 kyu
-Tribonacci Sequence
-JavaScript:
-function tribonacci(signature,n){
- 
-  let result = signature.slice(0, n)
-  
-  for(let i = 3;i < n ;i++){
-    result.push(result[i-1] + result[i-2] + result[i-3])
-  }
-  
-  return result
-}
-8 minutes agoRefactorDiscuss
-4 kyu
-Adding Big Numbers
-JavaScript:
 function add(a, b) {
   let result = ''
   let carryingNum = 0
