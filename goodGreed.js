@@ -30,3 +30,30 @@ function score( dice ) {
 
   return total;
 }
+
+
+// Typescript
+
+// export function score(dice: number[]): number {
+//   const counts: Record<number, number> = {};
+//   let total = 0;
+
+//   for (const num of dice) {
+//     counts[num] = (counts[num] ?? 0) + 1;
+//   }
+
+//   for (const [key, value] of Object.entries(counts)) {
+//     const num = Number(key);
+//     let count = value;
+
+//     if (count >= 3) {
+//       total += num === 1 ? 1000 : num * 100;
+//       count -= 3;
+//     }
+
+//     if (num === 1) total += count * 100;
+//     if (num === 5) total += count * 50;
+//   }
+
+//   return total;
+// }
