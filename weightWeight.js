@@ -50,3 +50,4 @@ function orderWeight(str) {
 
   
   return numbers.join(" ")
+}
