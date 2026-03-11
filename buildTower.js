@@ -13,3 +13,6 @@ function towerBuilder(nFloors) {
   
   return tower
 }
+
+
+Typescript
