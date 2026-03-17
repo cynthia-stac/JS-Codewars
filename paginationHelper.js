@@ -37,3 +37,6 @@ class PaginationHelper {
   return pageNumber
 	}
 }
+
+Typescript
+
