@@ -14,3 +14,7 @@ function sumPairs(ints, s) {
 
   return undefined;
 }
+
+
+Typescript
+
