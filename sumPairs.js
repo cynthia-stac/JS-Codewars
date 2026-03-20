@@ -16,21 +16,21 @@ function sumPairs(ints, s) {
 }
 
 
-Typescript
+// Typescript
 
-export function sumPairs(ints: number[], s: number): [number, number] | void {  
-    let seen = new Set();
+// export function sumPairs(ints: number[], s: number): [number, number] | void {  
+//     let seen = new Set();
 
-  for (let i = 0; i < ints.length; i++) {
-    let current = ints[i];
-    let needed = s - current;
+//   for (let i = 0; i < ints.length; i++) {
+//     let current = ints[i];
+//     let needed = s - current;
 
-    if (seen.has(needed)) {
-      return [needed, current];
-    }
+//     if (seen.has(needed)) {
+//       return [needed, current];
+//     }
 
-    seen.add(current);
-  }
+//     seen.add(current);
+//   }
 
-  return undefined;
-}
+//   return undefined;
+// }
