@@ -19,14 +19,14 @@ function sumPairs(ints, s) {
 // Typescript
 
 // export function sumPairs(ints: number[], s: number): [number, number] | void {  
-//     let seen = new Set();
+//     let seen = new Set()
 
 //   for (let i = 0; i < ints.length; i++) {
 //     let current = ints[i]
-//     let needed = s - current;
+//     let needed = s - current
 
 //     if (seen.has(needed)) {
-//       return [needed, current];
+//       return [needed, current]
 //     }
 
 //     seen.add(current);
