@@ -29,8 +29,8 @@ function sumPairs(ints, s) {
 //       return [needed, current]
 //     }
 
-//     seen.add(current);
+//     seen.add(current)
 //   }
 
-//   return undefined;
+//   return undefined
 // }
